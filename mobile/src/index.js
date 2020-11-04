@@ -19,7 +19,7 @@ export default function App(){
       owner: 'Matheus Albuquerque'
     });
 
-    setProjects([...projects,response.data])
+    setProjects([...projects,response.data]);
   }
 
 
